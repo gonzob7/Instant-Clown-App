@@ -16,6 +16,7 @@
 		E006043E232B15B000077F9A /* InstantClownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E006043D232B15B000077F9A /* InstantClownTests.swift */; };
 		E0060449232B15B000077F9A /* InstantClownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0060448232B15B000077F9A /* InstantClownUITests.swift */; };
 		E0F28034232BEF0E00DF1C2C /* clownHornEdited.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0F28033232BEF0E00DF1C2C /* clownHornEdited.mp3 */; };
+		E0F28036232BF0BD00DF1C2C /* buttonAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F28035232BF0BD00DF1C2C /* buttonAnimations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		E0060448232B15B000077F9A /* InstantClownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantClownUITests.swift; sourceTree = "<group>"; };
 		E006044A232B15B000077F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0F28033232BEF0E00DF1C2C /* clownHornEdited.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = clownHornEdited.mp3; path = ../../../Downloads/clownHornEdited.mp3; sourceTree = "<group>"; };
+		E0F28035232BF0BD00DF1C2C /* buttonAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonAnimations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				E0060434232B15B000077F9A /* Info.plist */,
 				E006042C232B15AD00077F9A /* InstantClown.xcdatamodeld */,
 				E0F28033232BEF0E00DF1C2C /* clownHornEdited.mp3 */,
+				E0F28035232BF0BD00DF1C2C /* buttonAnimations.swift */,
 			);
 			path = InstantClown;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0F28036232BF0BD00DF1C2C /* buttonAnimations.swift in Sources */,
 				E0060428232B15AD00077F9A /* ViewController.swift in Sources */,
 				E0060426232B15AD00077F9A /* AppDelegate.swift in Sources */,
 				E006042E232B15AD00077F9A /* InstantClown.xcdatamodeld in Sources */,

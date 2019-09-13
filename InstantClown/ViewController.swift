@@ -26,6 +26,7 @@ class ViewController: UIViewController {
         do{
             audioPlayer = try AVAudioPlayer(contentsOf: clownSound)
             audioPlayer.play()
+            sender.pulsate()
         } catch{
             print("!Could not locate file!")
         }
