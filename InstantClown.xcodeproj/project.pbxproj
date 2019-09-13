@@ -15,7 +15,7 @@
 		E0060433232B15B000077F9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0060431232B15B000077F9A /* LaunchScreen.storyboard */; };
 		E006043E232B15B000077F9A /* InstantClownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E006043D232B15B000077F9A /* InstantClownTests.swift */; };
 		E0060449232B15B000077F9A /* InstantClownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0060448232B15B000077F9A /* InstantClownUITests.swift */; };
-		E0F28032232BECF800DF1C2C /* clownHorn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0F28031232BECF800DF1C2C /* clownHorn.mp3 */; };
+		E0F28034232BEF0E00DF1C2C /* clownHornEdited.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0F28033232BEF0E00DF1C2C /* clownHornEdited.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		E0060444232B15B000077F9A /* InstantClownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstantClownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0060448232B15B000077F9A /* InstantClownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantClownUITests.swift; sourceTree = "<group>"; };
 		E006044A232B15B000077F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E0F28031232BECF800DF1C2C /* clownHorn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = clownHorn.mp3; path = ../../../Downloads/clownHorn.mp3; sourceTree = "<group>"; };
+		E0F28033232BEF0E00DF1C2C /* clownHornEdited.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = clownHornEdited.mp3; path = ../../../Downloads/clownHornEdited.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 				E0060431232B15B000077F9A /* LaunchScreen.storyboard */,
 				E0060434232B15B000077F9A /* Info.plist */,
 				E006042C232B15AD00077F9A /* InstantClown.xcdatamodeld */,
-				E0F28031232BECF800DF1C2C /* clownHorn.mp3 */,
+				E0F28033232BEF0E00DF1C2C /* clownHornEdited.mp3 */,
 			);
 			path = InstantClown;
 			sourceTree = "<group>";
@@ -235,8 +235,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0F28034232BEF0E00DF1C2C /* clownHornEdited.mp3 in Resources */,
 				E0060433232B15B000077F9A /* LaunchScreen.storyboard in Resources */,
-				E0F28032232BECF800DF1C2C /* clownHorn.mp3 in Resources */,
 				E0060430232B15B000077F9A /* Assets.xcassets in Resources */,
 				E006042B232B15AD00077F9A /* Main.storyboard in Resources */,
 			);

@@ -13,8 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var clownBtn: UIButton!
 
     var audioPlayer = AVAudioPlayer()
-    let clownSound = URL(fileURLWithPath: Bundle.main.path(forResource: "clownHorn", ofType: "mp3")!)
-
+    let clownSound = URL(fileURLWithPath: Bundle.main.path(forResource: "clownHornEdited", ofType: "mp3")!)
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +22,15 @@ class ViewController: UIViewController {
     }
     
     
-
+    @IBAction func clownBtnPressed(_ sender: UIButton) {
+        do{
+            audioPlayer = try AVAudioPlayer(contentsOf: clownSound)
+            audioPlayer.play()
+        } catch{
+            print("!Could not locate file!")
+        }
+        
+    }
+    
 }
 
