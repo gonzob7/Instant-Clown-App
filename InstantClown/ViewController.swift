@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import AVKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var clownBtn: UIButton!
